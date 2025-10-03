@@ -34,6 +34,6 @@ const getStyles = ({ insets }: { insets: any }) =>
     container: {
       flex: 1,
       backgroundColor: "#FFF9C4",
-      paddingTop: (insets = 10),
+      paddingTop: insets + 10,
     },
   });

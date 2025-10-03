@@ -1,4 +1,3 @@
-import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -10,12 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Link href="/(mainNavigationTabsParents)">
-        <Text>Parents</Text>
-      </Link>
-      <Link href="/(kids)">
-        <Text>Kids</Text>
-      </Link>
+      <Text>Parents </Text>
     </View>
   );
 }
